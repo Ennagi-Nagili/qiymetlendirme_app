@@ -56,7 +56,7 @@ class _QualityState extends State<Quality> {
           backgroundColor: Colors.red,
           textColor: Colors.white,
           fontSize: 16.0);
-    } else if((double.parse(text1) + double.parse(text2)) > double.parse(text1)) {
+    } else if((double.parse(text2) + double.parse(text3)) > double.parse(text1)) {
       Fluttertoast.showToast(
           msg: "2, 4 və 5 qiyməti alan şagirdlərin sayı ümumi şagird sayından çox ola bilməz",
           toastLength: Toast.LENGTH_SHORT,

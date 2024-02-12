@@ -170,7 +170,7 @@ class _HalfCheckState extends State<HalfCheck> {
         body: ListView(
           children: [
             Container(
-              margin: const EdgeInsets.symmetric(vertical: 32, horizontal: 32),
+              margin: const EdgeInsets.symmetric(vertical: 32, horizontal: 16),
               child: Column(children: [
                 Container(
                   alignment: Alignment.topLeft,
@@ -180,7 +180,7 @@ class _HalfCheckState extends State<HalfCheck> {
                           TextStyle(fontSize: 18, fontWeight: FontWeight.w500)),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 16, right: 134),
+                  margin: const EdgeInsets.only(top: 16, right: 150),
                   child: TextField(
                       keyboardType: TextInputType.number,
                       controller: countController,
@@ -314,7 +314,7 @@ class _HalfCheckState extends State<HalfCheck> {
                 ),
                 Container(
                   margin:
-                      const EdgeInsets.symmetric(vertical: 48, horizontal: 32),
+                      const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
                   child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
