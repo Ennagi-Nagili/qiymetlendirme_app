@@ -328,7 +328,7 @@ class _HalfCheckState extends State<HalfCheck> {
                                         BorderRadius.all(Radius.circular(5)))),
                             child: const Text("Hesabla",
                                 style: TextStyle(
-                                    color: Colors.white, fontSize: 22))),
+                                    color: Colors.white, fontSize: 20))),
                         ElevatedButton(
                             onPressed: clear,
                             style: ElevatedButton.styleFrom(
@@ -339,7 +339,7 @@ class _HalfCheckState extends State<HalfCheck> {
                                         BorderRadius.all(Radius.circular(5)))),
                             child: const Text("Sıfırla",
                                 style: TextStyle(
-                                    color: Colors.white, fontSize: 22)))
+                                    color: Colors.white, fontSize: 20)))
                       ]),
                 )
               ]),
